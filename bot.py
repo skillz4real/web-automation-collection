@@ -30,7 +30,7 @@ while (True):
 
     #driver.get("https://ifconfig.me")
     try:
-        driver.get("https://coaching-ethique.com/sicema/awards/screens/coach.php?ctg=12")
+        driver.get("link.com")
         wait = WebDriverWait(driver, timeout=30, poll_frequency=1,ignored_exceptions = [ElementNotVisibleException, ElementNotSelectableException])
 
         btn = wait.until(EC.element_to_be_clickable((By.XPATH,"/html/body/div[1]/div/div/div/div[2]/div[1]/div[3]/div[1]/span")))
